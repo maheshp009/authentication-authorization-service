@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: authentication-authorization-service
+
+  data:
+    mongodb:
+      host: localhost
+      database: auth_db
+      port: 27017
+  cloud:
+    discovery:
+      enabled: true
+server:
+  port: 3000
